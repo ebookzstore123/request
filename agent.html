@@ -1039,18 +1039,21 @@ function buildMsg() {
   const fn = (tx.messengerName||'there').split(' ')[0];
   document.getElementById('mc-email-preview').textContent =
 `Hi ${fn},
+
 Great news! Your ebook request has been completed. 🎉
 You can access your ebook(s) using the link below:
 ${link}
 Reference Number: ${tx.referenceNo}
 Items: ${tx.qty} ebook${tx.qty>1?'s':''}
 Thank you for choosing Ebook Request Service! 📚💙
+
 Please download your ebook within 24 hours after receiving the link to ensure you have your own copy.
+
 ✨ Exclusive for our clients: Get the BookHive Reader at 50% OFF!
 https://eassistph.com/BookHive/
-Thank you!
+
 Ebook Request Service Team
-Facebook: Ebook Request';
+Facebook: Ebook Request`;
 
   document.getElementById('mc-fb-preview').textContent =
 `Hi ${fn}! 👋
